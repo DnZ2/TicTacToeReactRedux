@@ -1,0 +1,16 @@
+.grid {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 5px;
+}
+
+.cell {
+	background-color: #cfcfcf;
+	border: none;
+	height: 170px;
+	font-size: 180px;
+	line-height: 170px;
+}
